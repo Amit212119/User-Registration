@@ -1,0 +1,120 @@
+.container{
+    background-color: rgb(157 189 189 / 34%);
+    padding:15px;
+    
+}
+.centered{
+    margin: 0 auto;
+    width:500px;
+
+}
+.input-err{
+    border: 1px solid red;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+  }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 5px;
+}
+label {
+    width: 100px;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.row{
+    position: relative;
+
+}
+.err{
+    position: absolute;
+    bottom: -10px;
+    left: 85px;
+    color: red;
+    font-size: 14px;
+}
+
+
+.btn {
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.table {
+    width: 90%;
+    padding: 10px;
+    margin: 40px;
+}
+th{
+    background-color:rgb(157 189 189 / 34%) ;
+    height: 30px;
+}
+td{
+    height: 40px;
+    
+}
+
+.action-btn {
+    border: none;
+    margin-right: 10px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    width: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.edit-btn{
+    background-color: #4CAF50;
+}
+.delete-btn{
+    background-color: red;
+}
+.success{
+    background-color: green;
+    color: aliceblue;
+    width: 500px;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 10px 5px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 2px;
+    position:relative;
+}
+.close-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+.showsuccess{
+    margin-left: 40px;
+}
